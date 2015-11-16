@@ -1,0 +1,26 @@
+/** 
+ *	@mainpage Introduction
+ *  @author Federico Conte (draxent)
+ *
+ *	If you want to print a formatted output on the console, you should seek on the web in order to find the ansi escape you need
+ *	in order to get the format you want; for example scrolling this page: <br/>
+ * http://ascii-table.com/ansi-escape-sequences.php.
+ *
+ *	Sometimes this approach is really annoying when you want something cool but you want to write it fast. <br/>
+ *	This implementation allows you to print formatted output on your Linux console through the use of a simple interface.
+ *
+ *	The implementation is inspired by : <br/>
+ *  cout_col v1.0.2 <br/>
+ *  https://github.com/tomveltmeijer/cout_col <br/>
+ *  The MIT License (MIT) <br/>
+ *  Copyright (c) 2015 Tom Veltmeijer <br/>
+ *  http://opensource.org/licenses/MIT <br/>
+ *
+ *	Tom Veltmeijer's implementation allows you to print, on the standard output, colored console output for Windows and Linux
+ *	in a single header. <br/>
+ * 	Differently of his implementation, in this one you have the :
+ *
+ *	- disadvantage that is <b>not supported for Windows</b> ;
+ *	- advantage that you have a more <b>flexible interface</b> ;
+ *	- advantage that you can format other kind of styles: <b>bold, italic, underline, ...</b>
+ */
