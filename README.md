@@ -43,7 +43,7 @@ int main( int argc, char* argv[] )
     return 0;
 }
 ```
-<img src="https://github.com/Draxent/FormattedConsoleOutput/blob/master/demo.png">
+<img src="./demo.png">
 
 ###License
 The MIT License (MIT)
